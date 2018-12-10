@@ -20,6 +20,7 @@ Run chmod 600 ~/.ssh/lightsail_key.rsa
 Connect to the instance via the terminal: ssh -i ~/.ssh/lightsail_key.rsa -p 2200 ubuntu@13.126.94.85 
 
 Step 3: Secure the server
+
 Run sudo apt-get update
 Run sudo apt-get upgrade
 
@@ -103,3 +104,10 @@ Restart Apache: sudo service apache2 restart
 Step 16:Disable the default Apache site
 Step 17: Launch the web application
 Open your browser to http://13.126.94.85/
+
+
+Resources:
+https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+https://www.networkworld.com/article/2726217/endpoint-protection/how-to-enforce-password-complexity-on-linux.html
+https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04
+https://www.digitalocean.com/community/tutorials/how-to-configure-the-apache-web-server-on-an-ubuntu-or-debian-vps
